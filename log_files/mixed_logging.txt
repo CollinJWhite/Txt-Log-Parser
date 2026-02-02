@@ -1,0 +1,8 @@
+[INFO] Starting automation sequence
+[INFO] Scanning project directory
+[WARNING] Missing metadata in file: data_042.xml
+[INFO] Continuing with available data
+[WARNING] Deprecated setting detected
+[INFO] Writing output files
+[ERROR] Failed to write report to disk
+[INFO] Cleanup complete
