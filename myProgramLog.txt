@@ -1,132 +1,22 @@
- 2026-02-01 20:52:02,542 - INFO- Start of program
- 2026-02-01 20:52:17,808 - DEBUG- Validating path .\\log_files\\log_large_with_timestamps.txt
- 2026-02-01 20:52:17,808 - INFO- Got valid .txt file
- 2026-02-01 20:52:17,808 - DEBUG- Processing logs...
- 2026-02-01 20:52:17,808 - INFO- Processing file.
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:00 INFO Event processed id=10001
+ 2026-05-06 13:09:48,453 - INFO- Start of program
+ 2026-05-06 13:09:53,792 - DEBUG- Validating path log_files//sample_syslog.txt
+ 2026-05-06 13:09:53,793 - INFO- Got valid .txt file
+ 2026-05-06 13:09:53,793 - DEBUG- Processing logs...
+ 2026-05-06 13:09:53,793 - INFO- Processing file.
+ 2026-05-06 13:09:53,793 - INFO- Building regexes for different logging types
+ 2026-05-06 13:09:53,794 - INFO- Matching regex to file
+ 2026-05-06 13:09:53,794 - DEBUG- Testing basic regex
+ 2026-05-06 13:09:53,794 - DEBUG- Testing python regex
+ 2026-05-06 13:09:53,794 - DEBUG- Testing log4j regex
+ 2026-05-06 13:09:53,794 - DEBUG- Testing serilog regex
+ 2026-05-06 13:09:53,794 - DEBUG- Testing syslog regex
+ 2026-05-06 13:09:53,794 - INFO- Matched syslog regex
+ 2026-05-06 13:09:53,794 - DEBUG- Processing line May 06 13:45:12 host1 myapp[1234]: INF: Application startup complete
 
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:01 INFO Event processed id=10002
+ 2026-05-06 13:09:53,794 - DEBUG- Processing line May 06 13:45:13 host1 myapp[1234]: WRN: Low disk space
 
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:02 INFO Event processed id=10003
+ 2026-05-06 13:09:53,794 - DEBUG- Processing line May 06 13:45:14 host1 myapp[1234]: ERR: Failed to write file
 
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:03 INFO Event processed id=10004
+ 2026-05-06 13:09:53,794 - DEBUG- Processing line May 06 13:45:15 host1 myapp[1234]: FTL: Kernel panic detected
 
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:04 INFO Event processed id=10005
-
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:05 WARNING Slow response detected
-
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:06 INFO Event processed id=10006
-
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:07 ERROR Timeout contacting service
-
- 2026-02-01 20:52:17,808 - DEBUG- Processing line 2026-01-31 12:00:08 INFO Event processed id=10007
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:00 INFO Event processed id=10001
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:01 INFO Event processed id=10002
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:02 INFO Event processed id=10003
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:03 INFO Event processed id=10004
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:04 INFO Event processed id=10005
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:05 WARNING Slow response detected
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:06 INFO Event processed id=10006
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:07 ERROR Timeout contacting service
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:08 INFO Event processed id=10007
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:00 INFO Event processed id=10001
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:01 INFO Event processed id=10002
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:02 INFO Event processed id=10003
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:03 INFO Event processed id=10004
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:04 INFO Event processed id=10005
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:05 WARNING Slow response detected
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:06 INFO Event processed id=10006
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:07 ERROR Timeout contacting service
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:08 INFO Event processed id=10007
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:00 INFO Event processed id=10001
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:01 INFO Event processed id=10002
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:02 INFO Event processed id=10003
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:03 INFO Event processed id=10004
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:04 INFO Event processed id=10005
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:05 WARNING Slow response detected
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:06 INFO Event processed id=10006
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:07 ERROR Timeout contacting service
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:08 INFO Event processed id=10007
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:00 INFO Event processed id=10001
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:01 INFO Event processed id=10002
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:02 INFO Event processed id=10003
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:03 INFO Event processed id=10004
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:04 INFO Event processed id=10005
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:05 WARNING Slow response detected
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:06 INFO Event processed id=10006
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:07 ERROR Timeout contacting service
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:08 INFO Event processed id=10007
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:00 INFO Event processed id=10001
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:01 INFO Event processed id=10002
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:02 INFO Event processed id=10003
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:03 INFO Event processed id=10004
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:04 INFO Event processed id=10005
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:05 WARNING Slow response detected
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:06 INFO Event processed id=10006
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:07 ERROR Timeout contacting service
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:08 INFO Event processed id=10007
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:00 INFO Event processed id=10001
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:01 INFO Event processed id=10002
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:02 INFO Event processed id=10003
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:03 INFO Event processed id=10004
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:04 INFO Event processed id=10005
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:05 WARNING Slow response detected
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:06 INFO Event processed id=10006
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:07 ERROR Timeout contacting service
-
- 2026-02-01 20:52:17,809 - DEBUG- Processing line 2026-01-31 12:00:08 INFO Event processed id=10007
-
- 2026-02-01 20:52:17,810 - INFO- End of program
+ 2026-05-06 13:09:53,794 - INFO- End of program

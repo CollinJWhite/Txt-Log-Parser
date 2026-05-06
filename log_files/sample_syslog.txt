@@ -1,0 +1,4 @@
+May 06 13:45:12 host1 myapp[1234]: INF: Application startup complete
+May 06 13:45:13 host1 myapp[1234]: WRN: Low disk space
+May 06 13:45:14 host1 myapp[1234]: ERR: Failed to write file
+May 06 13:45:15 host1 myapp[1234]: FTL: Kernel panic detected

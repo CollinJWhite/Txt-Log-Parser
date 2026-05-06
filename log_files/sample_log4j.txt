@@ -1,0 +1,4 @@
+2026-05-06 13:45:12,123 INFO  [main] com.example.App - Application started
+2026-05-06 13:45:13,456 WARN  [worker-1] com.example.App - Low memory warning
+2026-05-06 13:45:14,789 ERROR [worker-2] com.example.App - Failed to process request
+2026-05-06 13:45:15,012 FATAL [main] com.example.App - Critical failure detected

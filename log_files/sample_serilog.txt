@@ -1,0 +1,4 @@
+[13:45:12 INFO] Application started successfully
+[13:45:13 WARNING] Low memory detected
+[13:45:14 ERROR] Configuration file is missing
+[13:45:15 CRITICAL] System failure imminent

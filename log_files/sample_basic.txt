@@ -1,0 +1,4 @@
+[INFO] Application started successfully
+[WARNING] Disk space is running low
+[ERROR] Unable to connect to database
+[CRITICAL] System shutdown initiated

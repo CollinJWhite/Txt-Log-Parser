@@ -1,0 +1,4 @@
+2026-05-06 13:45:12,123 - INFO- Application initialized
+2026-05-06 13:45:13,456 - WARNING- Low memory detected
+2026-05-06 13:45:14,789 - ERROR- Failed to load configuration
+2026-05-06 13:45:15,012 - CRITICAL- Fatal exception occurred
